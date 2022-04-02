@@ -30,13 +30,12 @@ class Solution {
         for (int i = 2; i <= right; i++) {
             f[i] = f[i >> 1] + (i & 1);
         }
-        int[] primes = getPrimes(right);
+        int[] primes = getPrimes(32);
         for (int i = left; i <= right; i++) {
             ans += (primes[f[i] - 1] == 0) ? 1 : 0;
         }
         return ans;
     }
-
 
     public int[] getPrimes(int n){
         int primes[] = new int[n];
