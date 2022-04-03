@@ -1,7 +1,7 @@
 package com.shg.dynamicprogramming.sequencedp.houserobber2;
 
 
-import com.shg.util.Randoms;
+import com.shg.utils.Randoms;
 
 /**
  * @author: shg

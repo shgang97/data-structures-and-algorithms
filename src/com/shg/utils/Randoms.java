@@ -1,6 +1,4 @@
-package com.shg.util;
-
-import java.util.Random;
+package com.shg.utils;
 
 /**
  * @author: shg
